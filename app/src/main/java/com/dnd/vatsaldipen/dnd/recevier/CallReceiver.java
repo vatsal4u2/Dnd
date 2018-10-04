@@ -1,9 +1,9 @@
-package com.dnd.vatsaldipen.dnd;
+package com.dnd.vatsaldipen.dnd.recevier;
 
 import android.content.Context;
 import java.util.Date;
 
-public class CallReceiver extends PhonecallReceiver {
+public class CallReceiver extends PhoneCallReceiver {
 
     @Override
     protected void onIncomingCallStarted(Context ctx, String number, Date start) {

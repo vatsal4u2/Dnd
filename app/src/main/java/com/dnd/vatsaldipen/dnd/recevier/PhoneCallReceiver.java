@@ -1,13 +1,13 @@
-package com.dnd.vatsaldipen.dnd;
-
-import java.util.Date;
+package com.dnd.vatsaldipen.dnd.recevier;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.telephony.TelephonyManager;
 
-abstract class PhonecallReceiver extends BroadcastReceiver {
+import java.util.Date;
+
+abstract class PhoneCallReceiver extends BroadcastReceiver {
 
     //The receiver will be recreated whenever android feels like it.  We need a static variable to remember data between instantiations
 
@@ -94,4 +94,6 @@ abstract class PhonecallReceiver extends BroadcastReceiver {
         }
         lastState = state;
     }
+
 }
+
